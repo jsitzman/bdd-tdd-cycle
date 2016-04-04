@@ -9,17 +9,15 @@ gem 'rails', '3.2.18'
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
   gem 'sqlite3'
-  gem 'byebug'
   gem 'rails_12factor'
+  gem 'byebug'
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
-  gem 'cucumber', github: 'zedtux/cucumber', branch: 'v1.3.x-bugfix'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
-  gem 'simplecov', :require => false
-  gem 'test-unit'
+  gem 'simplecov'
 end
 group :production do
   gem 'pg'
