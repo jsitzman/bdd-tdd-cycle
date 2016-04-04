@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 gem 'rails', '3.2.18'
 
-
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -11,6 +10,7 @@ gem 'rails', '3.2.18'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
+  gem 'rails_12factor'
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'cucumber', github: 'zedtux/cucumber', branch: 'v1.3.x-bugfix'
